@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Merriweather&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  --header-font-family: 'Josefin Sans', sans-serif;
+  --content-font-family: 'Merriweather', serif;
+  --primary-color: white;
+  --seconday-color: #701A75;
 }
