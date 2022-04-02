@@ -285,3 +285,17 @@ footer {
   }
 
 }
+
+
+@media (min-width: 2100px) {
+  .project-container {
+    margin-left: 32px;
+    margin-right: 32px;
+    min-height: 900px;
+  }
+
+  .project-container:nth-child(1),
+  .project-container:nth-child(2) {
+    min-height: 900px;
+  }
+}
