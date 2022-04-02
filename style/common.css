@@ -101,7 +101,7 @@ main {
 .main-header {
   font-size: 3rem;
   font-family: var(--header-font-family);
-  margin-top: 12px;
+  margin-top: 36px;
   margin-bottom: 24px;
   align-self: center;
   text-align: center;
@@ -229,11 +229,28 @@ footer {
     margin-left: 48px;
   }
 
+  .projects-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
 
+  .project-container:nth-child(1),
+  .project-container:nth-child(2) {
+    min-height: 400px;
+  }
+  .project-container {
+    min-height: 600px;
+  }
 
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
 
-
-
+  .project-container .links {
+    margin-top: auto;
+  }
 }
 
 
