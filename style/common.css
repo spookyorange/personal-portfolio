@@ -6,7 +6,11 @@
   --header-font-family: 'Josefin Sans', sans-serif;
   --content-font-family: 'Merriweather', serif;
   --primary-color: white;
-  --seconday-color: #0C4A6E;
+  --seconday-color: #6D28D9;
+}
+
+.color {
+  color: black;
 }
 
 body {
@@ -32,7 +36,8 @@ header {
 }
 
 .hl-name {
-  color: #86198F;
+  font-weight: bold;
+  color: yellow;
 }
 
 header img {
@@ -49,14 +54,13 @@ header img {
 .about-me {
   padding: 16px;
   text-align: center;
-  background-color: white;
-  color: black;
+
   font-family: var(--content-font-family);
   font-size: 1.2rem;
 }
 
 .links {
-  margin: 16px;
+  margin: 32px;
   font-size: 3rem;
 }
 
@@ -101,6 +105,14 @@ main {
   margin: 0 24px 0 24px;
 }
 
+.exclusive-link {
+  color: red;
+}
+
+.exclusive-link:hover {
+  color: var(--seconday-color)
+}
+
 .project-container {
   font-size: 1.1rem;
   display: flex;
@@ -138,7 +150,52 @@ main .links img {
 }
 
 
-
-
 footer {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--seconday-color);
+  color: var(--primary-color)
 }
+
+.footer-header {
+  text-align: center;
+  font-family: var(--header-font-family);
+  font-size: 3rem;
+}
+
+.footer-content {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 12px;
+  font-family: var(--content-font-family);
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact img {
+  width: 2rem;
+}
+
+.contact a {
+  margin-left: 8px;
+  color: yellow;
+  font-family: var(--content-font-family);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: white;
+}
+
+
+/* 
+  Implement Responsiveness
+*/
