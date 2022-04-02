@@ -269,7 +269,19 @@ footer {
     width: 800px;
   }
 
+  .projects-parent {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
+  .project-container {
+    margin-left: 32px;
+    margin-right: 32px;
+    min-height: 600px;
+  }
 
+  .project-container:nth-child(1),
+  .project-container:nth-child(2) {
+    min-height: 600px;
+  }
 
 }
