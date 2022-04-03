@@ -204,6 +204,10 @@ footer {
   color: white;
 }
 
+.links-wrapper .links a {
+  margin-left: 32px;
+}
+
 
 /* 
   Implement Responsiveness
